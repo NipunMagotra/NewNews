@@ -1,40 +1,38 @@
-# YouTube Timestamp Saver (Chrome Extension)
+# Just News Chrome Extension
 
-YouTube Timestamp Saver is a Chrome extension developed to provide users with a convenient bookmarking tool specifically tailored for YouTube video pages. With this extension, users can easily save and manage timestamps while watching YouTube videos, enhancing their overall viewing experience.
+## Description
+"Just News" is a Chrome extension that allows you to stay updated with the latest news articles. It fetches news data from an API and displays them in a user-friendly interface.
+
+![Just News](demo.png)
 
 ## Features
+- Search for news articles using keywords
+- Display search results in a grid layout
+- Click on an article to read the full content
+- Responsive design for different screen sizes
 
-- **Bookmarking Tool**: YouTube Timestamp Saver allows users to save timestamps while watching YouTube videos, enabling them to quickly return to specific points of interest within a video.
-  
-- **JavaScript and DOM Manipulation**: The extension is built using JavaScript and DOM manipulation techniques to implement its functionality seamlessly within the YouTube video page.
-  
-- **Content and Background Scripts**: YouTube Timestamp Saver integrates content and background scripts to interact with the YouTube player and browser tabs effectively. This enables smooth communication between the extension and the YouTube page without interfering with the user's browsing experience.
-  
-- **Seamless Interface**: Users can view and add bookmarks seamlessly within the extension interface, providing a user-friendly experience for managing timestamps while watching YouTube videos.
+## Installation
+1. Clone or download the repository.
+2. Open Google Chrome and navigate to `chrome://extensions`.
+3. Enable the "Developer mode" toggle at the top-right corner of the page.
+4. Click on "Load unpacked" and select the folder containing the project files.
+5. The "Just News" extension should now be installed and visible in the extensions toolbar.
 
-## Getting Started
-
-To use YouTube Timestamp Saver, follow these steps:
-
-1. **Install the Extension**: Navigate to the Chrome Web Store and install the YouTube Timestamp Saver extension.
-  
-2. **Activate the Extension**: Once installed, the extension will automatically be activated when you visit a YouTube video page.
-  
-3. **Save Timestamps**: While watching a YouTube video, use the extension interface to save timestamps for points of interest in the video.
-  
-4. **Manage Bookmarks**: Access the extension interface to view and manage your saved timestamps, allowing you to revisit specific moments in the video with ease.
+## Usage
+1. Click on the "Just News" extension icon in the toolbar to open the news interface.
+2. Enter a search query in the search bar and click the "Search" button or press Enter.
+3. The news articles matching the search query will be displayed in a grid layout.
+4. Click on an article to read the full content in a new tab.
 
 ## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Axios (for API requests)
 
-YouTube Timestamp Saver is built using the following technologies:
+## Credits
+- News data provided by [https://newsapi.org/] 
+- Icons from [www.flaticon.com]
 
-- **Chrome Extension**: Developed using manifest v3 of the Chrome extension platform.
-  
-- **JavaScript**: Used for implementing functionality and interacting with the DOM of the YouTube video page.
-  
-- **DOM Manipulation**: Techniques employed for seamless integration with the YouTube video page.
-  
-- **Content and Background Scripts**: Integrated for interaction with the YouTube player and browser tabs.
-  
-- **HTML/CSS**: Used for designing the extension interface and user interaction elements.
-
+## License
+This project is licensed under the [MIT License](LICENSE).
